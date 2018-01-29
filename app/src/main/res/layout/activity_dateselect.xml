@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_detail"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:layout_height="25dp">
+
+        <TextView
+            android:text="日"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="一"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="二"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="三"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="四"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="五"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="六"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textColor="@color/text_color_black"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
